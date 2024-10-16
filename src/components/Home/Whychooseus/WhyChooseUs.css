@@ -1,0 +1,90 @@
+.whyChooseUs {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.whyChooseUsContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.whyChooseUsContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.whyChooseUsTitle {
+  width: 100%;
+  padding-bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whyChooseUsTitle h1 {
+  width: 46%;
+  text-align: center;
+}
+
+.whyChooseUsContents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* .whyUsContentLeft {
+  background-color: red;
+  
+
+} */
+
+.modernInstrument,
+.easyBilling,
+.qualifiedStaff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 18px;
+  max-width: 90%;
+  padding-bottom: 45px;
+}
+
+.moderntext h4,
+.easyBillingtext h4,
+.qualifiedStafftext h4 {
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #121229;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.moderntext p,
+.easyBillingtext p,
+.qualifiedStafftext p {
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 12px;
+}
+
+.modernImage {
+  width: 90px;
+}
+
+.whyUsContentRight {
+  position: relative;
+}
+
+.dotted {
+  position: absolute;
+
+  top: -38px;
+  left:350px;
+  z-index: -1;
+}
+
+.dottedImage {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}

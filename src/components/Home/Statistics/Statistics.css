@@ -1,0 +1,51 @@
+.statistics {
+  width: 100%;
+  padding: 60px 0;
+ 
+
+}
+
+.stasticsContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  padding: 50px 30px;
+  border-radius: 10px;
+  
+}
+
+.divider {  
+  border-right: 1px dotted gray; 
+  height: 60px;
+  width: 1px; 
+  
+}
+
+
+.happyPatients,
+.expertDoctors,
+.averageRating,
+.awards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.happyPatients h4,
+.expertDoctors h4,
+.averageRating h4,
+.awards h4 {
+  /* color:darkgreen;  
+  font-size: 24px;
+   */
+  margin-bottom: 5px;
+  color: #415da1;
+
+  font-size: 38px;
+  line-height: 1.342;
+  font-weight: 700;
+}

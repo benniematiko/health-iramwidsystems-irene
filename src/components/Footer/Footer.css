@@ -1,0 +1,98 @@
+.footer {
+  width: 100%;
+  background-color: lightblue;
+  padding-top: 100px;
+
+  }
+
+  .footerContainer {
+    width: 80%;
+    margin: 0 auto;
+   
+
+  }
+
+  .footerContentMain {   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+
+  }
+
+  .footerCopyRight {
+
+    display: grid;
+    grid-template-columns: 1f;
+    grid-template-rows: auto;
+    text-align: center;
+
+
+  }
+
+  .logo {
+    height: 125px;
+  }
+
+  .footerLogo {
+   
+    padding-right: 50px;
+    
+  }
+  .footerLogo p {
+    margin-top: 25px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+
+  .company,
+  .informatiom,
+  .contactInfo {  
+    display: flex;
+    flex-direction: column;
+   }
+
+
+  .company h1,
+  .informatiom h1,
+  .contactInfo h1 {
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+
+  .footerLinks {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerLinks a {     
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+    margin-bottom: 20px;
+    color: #39394a;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+
+   }
+
+
+
+  .footerCopyRight  {
+    padding-top: 70px;
+    padding-bottom: 45px;
+  }
+
+
+  .footerCopyRight p {
+    font-size: 14px;
+    line-height: 14px;
+    /* font-weight: 500; */
+  }

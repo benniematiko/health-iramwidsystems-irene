@@ -1,0 +1,106 @@
+.navbar {
+  width: 100%;  
+}
+
+/* topNavbar */
+
+.topNavbar {
+  width: 100%;
+  background-color: darkgreen;  
+  padding: 8px 0;
+}
+
+.topNavbarContainer {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.topNavbarMob {
+  display: flex;
+
+}
+
+.topNavbarMob p {
+  color: whitesmoke;
+  margin-right: 12px;
+  font-size: 12px;
+} 
+
+.topNavbarSocials {
+  display: flex;
+}
+.topNavbarSocials p {
+  color: whitesmoke;
+  margin-right: 12px;
+  font-size: 12px;
+}
+
+/* middleNavbar */
+
+.middleNavbar {
+  width: 100%;
+  /* background-color: lightblue; */
+  background-color:  #e9f0ff;
+  
+  padding: 26px 0;
+  
+}
+
+.navbarMiddleContainer {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;  
+  
+}
+
+.leftSide a {
+  color: darkgreen;
+  font-weight: 700;
+  font-size: 1.2rem;  
+
+}
+
+.rightSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+ 
+
+
+
+.rightSide a {  
+  padding-left: 24px;
+
+ 
+}
+
+.rightSide a:hover {  
+  color: darkgreen;
+ 
+} 
+
+.appointment {
+  display: flex;
+  background-color: darkgreen;
+  margin-left:10px; 
+
+  padding: 5px 0 5px 0;
+  padding-right: 20px;
+  color: whitesmoke;
+  border-radius: 5px;
+  transition: background-color, border 0.15s ease-in-out;
+}
+
+.appointment:hover {
+  background-color: transparent;
+  border: 1px solid darkgreen;
+
+}
+

@@ -1,0 +1,75 @@
+.ourservices {
+ padding: 40px 0;
+}
+
+.ourServicesContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* .ourservicesTitle {
+  display: flex;
+  flex-direction: column;
+} */
+
+
+.ourservicesMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.ourservicesMain h1 {
+  width: 600px;
+}
+
+.linkServices a {
+  text-decoration: underline;
+}
+
+.ourservicesCards {
+  display:grid ;
+  grid-template-columns: 1fr 1fr;
+}
+
+.serviceRightTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap:20px;
+  margin-bottom: 20px;
+}
+
+.serviceRightBottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap:20px;
+}
+
+.servicesImageOne {
+  width: 100%;
+}
+
+.servicesImageTwo {
+  width: 100%;
+}
+
+.serviceTitle {
+  padding: 6px 0;
+}
+
+.serviceparagraph p {
+  font-size: 14px;
+}
+
+.servicesItemCard {
+  cursor:pointer;
+  /* box-shadow: rgba(0,0,0,0.35) 0,5px,15px;   */
+}
+
+
+
+.servicesItemCard:hover {
+  background-color: darkgreen;
+  color: white;
+  
+}

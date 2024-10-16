@@ -1,0 +1,23 @@
+.summary {
+  width: 100%;
+  padding: 120px 0;
+}
+
+.summaryContainer {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar {
+  border-right: 1px dotted gray;
+  height: 60px;
+  width: 1px;
+  
+}
+
+
+
